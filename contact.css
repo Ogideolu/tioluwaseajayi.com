@@ -1,0 +1,102 @@
+
+* {box-sizing: border-box;}
+body { font-family: Arial, Helvetica, sans-serif;
+    background-image: url(http://placeimg.com/640/480/any);
+    background-size: 300px 100px; 
+  }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h3{
+    color: white;
+}
+header {
+    text-align: center;
+    background: url('http://placeimg.com/640/500/any') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  header {
+    line-height: 1.5;
+  }
+  header .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+  header .profile-image:hover {
+    transform: scale(2) rotate(720deg);
+  }
+  .main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav .name {
+    display: none;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white
+  }
+  .nav .name {
+    display: none;
+  }
+  .main-image{
+    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    border: 3px solid none;
+    transition: all .5s;
+  }
+  .main-image:hover {
+    transform: scale(2) rotate(720deg);
+  }
