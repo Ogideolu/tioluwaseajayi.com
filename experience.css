@@ -116,7 +116,7 @@
   
   .skills li {
     border-radius: 6px;
-    display: inline-block;
+    display: inline;
     background: #ff9904;
     color: white;
     padding: 5px 10px;
